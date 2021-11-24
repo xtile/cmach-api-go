@@ -6,7 +6,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"github.com/xtile/cmach-go-api/internal/app/apiserver"
+	"github.com/xtile/cmach-api-go/internal/app/apiserver"
 )
 
 var (
@@ -14,7 +14,7 @@ var (
 )
 
 func init() {
-	flag.StringVar(&configPath, "config-path", "configs/apiserver.toml", "path to config file")
+	flag.StringVar(&configPath, "config-path", "./configs/apiserver.toml", "path to config file")
 }
 
 func main() {

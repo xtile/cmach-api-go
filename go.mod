@@ -9,7 +9,7 @@ require (
 	github.com/google/uuid v1.1.1 // indirect
 	github.com/gopherschool/http-rest-api v0.0.0-20190922093049-d59926c5ce3c // indirect
 	github.com/gorilla/handlers v1.4.2 // indirect
-	github.com/gorilla/mux v1.7.3 // indirect
+	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/gorilla/securecookie v1.1.1 // indirect
 	github.com/gorilla/sessions v1.2.0 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.1 // indirect
