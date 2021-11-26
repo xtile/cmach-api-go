@@ -8,7 +8,7 @@ RUN go build -v ./cmd/apiserver
 
 
 #Run stage
-FROM alpine:3.14 AS builder
+FROM alpine:3.14 AS runner
 WORKDIR /app
 COPY --from=builder /app/apiserver .
 
